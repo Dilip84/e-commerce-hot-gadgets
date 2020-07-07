@@ -1,0 +1,111 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    align-items: center;
+}    
+    /* NAVBAR */
+    .container-1{
+        margin: 0px 100px;    
+    }
+
+   /* Carousel Start */
+   .carousel-item{
+    padding: 20px 40px;
+}
+
+.buy-now-button{
+    background-color: black;
+    /*background-image: linear-gradient(to bottom, #5047d1 0%, #5047d1 100%);*/
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+.carousel{
+    padding: 40px 60px;
+    border-radius: 20px;
+}
+.carousel-indicators .active{
+    background-color: yellow;
+    width: 35px;
+}
+.carousel-indicators li {
+    height: 8px;
+    width: 15px;
+    background-color: rgb(168, 164, 164);
+    border-radius: 10px;
+
+    border: 0;
+  
+    opacity: 1;
+}
+   /* Carousel End */
+
+   .smartphone-container{
+    margin-bottom: 50px;
+    margin: 100px 100px; 
+   }
+
+   .laptop-container{
+    margin-bottom: 50px;
+    margin: 100px 100px; 
+   }
+   .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px lightgrey;
+    padding: 2%;
+}
+.card-head{
+    margin: 50px 0;
+}
+
+
+a {
+    margin-bottom: 25px;
+    color: orange;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
+   /* Categories Start */
+       /* NAVBAR */
+       .cate-container{
+        margin: 0px 100px;    
+    }
+
+.orange-line{
+    width: 100px;
+    height: 4px;
+    background-color: orange;
+    align-content: center;
+}
+.underline{
+    width: 130px;
+    background-image: linear-gradient(to right, #e5d9a0, #f7b911);
+    height: 8px !important;
+    border-radius: 80px;
+}
+.cate-text{
+margin: 20px;
+}
+.bag{
+    border-radius: 10px 10px 10px 30px;
+}
+
+.perfume, .shoe{
+    border-radius: 15px 15px 30px 15px;
+}
+
+.bag, .perfume, .shoe{
+    border: none;
+    
+    box-shadow: 5px 5px 20px lightgrey;
+    margin-bottom: 30px;
+    padding: 25px 40px;
+}
+  /* Ctegories End */
